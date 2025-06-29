@@ -1,0 +1,179 @@
+@media (max-width: 900px) {
+    .out-of-header {
+        margin-top: -50px;
+    }
+    main {
+        .brown {
+            background: linear-gradient(180deg, rgba(51, 20, 1, 0.00) 0%, rgba(51, 20, 1, 0.82) 46.89%, #331401 81.66%);
+            filter: blur(10px);
+            height: 147px;
+            left: 50%;
+            position: absolute;
+            top: 63%;
+            transform: translateX(-50%);
+            width: 100vw;
+        }
+        .b2 {
+            top: 90%;
+            transform: translateX(-50%) rotateX(180deg);
+        }
+        .b3 {
+            top: 0;
+        }
+        .b4 {
+            top: 0;
+            transform: translateX(-50%) rotateX(180deg);
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__mobile-button path {
+        stroke: #fff;
+    }
+    .header__main-link {
+        color: #fff;
+        filter: brightness(0) invert(1);
+    }
+    header {
+        .header__announ-button {
+            background: transparent;
+            filter: brightness(0) invert(1);
+        }
+    }
+    .header__lang-switch {
+        color: #fff;
+    }
+}
+
+@media (min-width: 900px) {
+    .out-of-header {
+        background-color: #241303;
+        background-image: url('../img/bg-desk1.webp'), url('../img/bg-desk2.webp');
+        background-repeat: no-repeat, repeat-y;
+        background-position: center top, center 300px;
+        background-size: 70% auto, 70% auto;
+    }
+    main {
+        h1 {
+            font-size: 35px;
+        }
+        h2 {
+            font-size: 29px;
+            margin: 45px auto;
+        }
+        section {
+            margin: 100px 0;
+        }
+        .light {
+            display: none;
+        }
+        .blackLine {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.54) 39%, #000 93.97%);
+            height: 234px;
+            position: absolute;
+            top: 0;
+            width: 100vw;
+        }
+        .visual {
+            .visual-img {
+                transform: translateX(-50%) rotateY(180deg);
+                max-height: none;
+                max-width: 591.057px;
+            }
+        }
+        .main-sum {
+            left: calc(50% - 12em);
+            top: calc(50% - 1em);
+        }
+        .terms {
+            &-blocks {
+                gap: 28px;
+                margin-top: 92px;
+            }
+            &-block {
+                max-height: 81px;
+                img {
+                    height: 31px;
+                    width: 34px;
+                }
+            }
+            .papyrus {
+                max-height: 441px;
+                max-width: 650px;
+            }
+        }
+        .rules {
+            margin: 4em auto 0;
+        }
+        .how {
+            .swiper-slide {
+                padding: 35px;
+            }
+        }
+        .accordion {
+            margin: 0 0 35px 0;
+            &__text {
+                border: 3px solid #E39616;
+                border-radius: 2px;
+                font-size: 20px;
+                padding: 21px;
+            }
+            &__body {
+                background: rgba(13, 9, 5, 0.76);
+                border-radius: 0px 0px 2px 2px;
+                padding: 18px 21px;
+                * {
+                    font-size: 14.544px;
+                }
+            }
+        }
+        .terms {
+            &-block {
+                max-width: 390px;
+                &__item {
+                    gap: 11px;
+                }
+                p {
+                    font-size: 21px;
+                }
+            }
+            .last-text {
+                font-size: 19px;
+            }
+        }
+        .line {
+            background: url(../img/line.png) repeat-x;
+            background-size: contain;
+            height: 140px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 85%;
+            width: 53vw;
+        }
+        .b2 {
+            background: linear-gradient(71deg, #52310F 40.49%, #54310F 79.45%);
+            filter: blur(25.549999237060547px);
+            left: 50%;
+            height: 145px;
+            position: absolute;
+            top: 80%;
+            transform: translateX(-50%);
+            width: 52vw;
+        }
+        .flame {
+            height: 276px;
+            top: 16em;
+            width: 152px;
+        }
+        .f-1 {
+            left: 2em;
+            transform: rotate(10deg);
+        }
+        .f-2 {
+            right: 2em;
+            transform: rotate(-4deg);
+        }
+    }
+}
